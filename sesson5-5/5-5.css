@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 100px;
+    color: #333;
+    padding: 20px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+   
+}
+
+#fadein:hover {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+
+}
+
+#changecolor:hover {
+    background-color: #28a745;
+    transition: background-color 2s ease-in-out;
+}
+
+#grown:hover {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
+
+#shrink:hover {
+    transform: scale(0.5);
+    transition: transform 2s ease-in-out;
+}
+
+#rotate:hover {
+    transform: rotate(45deg);
+    transition: transform 2s ease-in-out;
+}
+
+#squaretocircle:hover {
+    border-radius: 50%;
+    transition: border-radius 2s ease-in-out;
+}
+
+#insertborder:hover {
+    border: 2px solid #007bff;
+    transition: border 2s ease-in-out;
+}
