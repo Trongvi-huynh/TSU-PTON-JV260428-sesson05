@@ -1,0 +1,6 @@
+button {
+    border-left: #4CAF50 5px solid ;
+    border-top: #4CAF50 3px dotted blue;
+    border-right: #4CAF50 5px dashed red;
+    border-bottom: #4CAF50 3px double yellow;
+}
